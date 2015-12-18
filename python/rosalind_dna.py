@@ -2,7 +2,7 @@
   open takes a file to open and mode (r for read, w for write, a for append, add + for reading and writing)
 '''
 
-with open(r'/Users/lambertkuang/Rosalind/data/rosalind_dna.txt', 'r') as file:
+with open(r'../data/rosalind_dna.txt', 'r') as file:
   dna_dict = {
   'a': 0,
   'c': 0,
